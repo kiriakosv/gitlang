@@ -12,7 +12,7 @@ module Gitlang
     rescue Octokit::TooManyRequests
       raise Gitlang::GitlangError,
             'You made too many requests. Please set GITHUB_TOKEN.'
-    rescue Octokit::NotFound
+    rescue Octokit::NotFound, URI::InvalidURIError
       raise Gitlang::GitlangError, 'Resource not found.'
     rescue Octokit::Unauthorized
       raise Gitlang::GitlangError, 'Wrong GITHUB_TOKEN.'
