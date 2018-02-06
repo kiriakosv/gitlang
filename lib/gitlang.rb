@@ -31,7 +31,7 @@ module Gitlang
       puts @formatter.format(@organization.name, relative_usage)
       @spinner.success('Done')
     rescue GitlangError => e
-      @spinner.error('Failure: - ' + e.message)
+      @spinner.error('Failure: ' + e.message)
     end
   end
 end
