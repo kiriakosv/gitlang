@@ -51,6 +51,10 @@ This gem can be used in conjuction with the redirection operators. For example, 
 gitlang relative_usage_per_language [organization_name] > [file_name]
 ```
 
+## Supported Ruby versions
+
+This gem is tested against **Ruby 2.3**.
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
