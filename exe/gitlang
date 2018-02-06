@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "gitlang"
+Gitlang::CLI.start(ARGV)
