@@ -1,5 +1,7 @@
 # Gitlang
 
+[![Build Status](https://travis-ci.org/kiriakosv/gitlang.svg?branch=master)](https://travis-ci.org/kiriakosv/gitlang)
+
 Simple gem for displaying information about the programming languages used by a GitHub organization.
 
 ## Installation
