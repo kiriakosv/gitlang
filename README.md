@@ -1,6 +1,7 @@
 # Gitlang
 
 [![Build Status](https://travis-ci.org/kiriakosv/gitlang.svg?branch=master)](https://travis-ci.org/kiriakosv/gitlang)
+[![Maintainability](https://api.codeclimate.com/v1/badges/63c18e4f41d9847aa9d4/maintainability)](https://codeclimate.com/github/kiriakosv/gitlang/maintainability)
 
 Simple gem for displaying information about the programming languages used by a GitHub organization.
 
