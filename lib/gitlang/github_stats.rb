@@ -29,6 +29,8 @@ module Gitlang
         (BigDecimal.new(usage) / total * 100)
       end
 
+      return results_pre_lare if results_pre_lare.empty?
+
       # Largest remainder method is used in order to avoid cases where the sum
       # of the relative usage is over or under 100%.
       # More info at https://en.wikipedia.org/wiki/Largest_remainder_method.

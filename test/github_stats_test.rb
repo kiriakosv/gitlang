@@ -18,4 +18,9 @@ class GithubStatsTest < Minitest::Test
     assert_equal relative_usage, expected
     assert_equal relative_usage.values.inject(&:+), 100
   end
+
+  def test_that_relative_usage_per_language_returns_an_empty_hash_when_input_is_an_empty_hash
+    relative_usage = @object.relative_usage_per_language({})
+    assert_equal relative_usage, {}
+  end
 end
